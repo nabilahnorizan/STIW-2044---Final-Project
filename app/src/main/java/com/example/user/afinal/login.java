@@ -160,7 +160,7 @@ public class login extends AppCompatActivity {
                     HashMap<String,String> hashMap = new HashMap();
                     hashMap.put("email",forgotemail);
                     RequestHandler rh = new RequestHandler();
-                    String s = rh.sendPostRequest("http://uumresearch.com/foodninja/php/verify_email.php",hashMap);
+                    String s = rh.sendPostRequest("http://www.funsproject.com/URR/verify_email.php",hashMap);
                     return s;
                 }
                 @Override
